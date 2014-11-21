@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "LEDpwm", "LEDpwm\LEDpwm.cppproj", "{E4D697D9-DF28-43F7-9D50-BE2FB8B93AB5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7FCE27F6-9A0E-4529-BE6B-356E5A435D5D} = {7FCE27F6-9A0E-4529-BE6B-356E5A435D5D}
+	EndProjectSection
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "eeprom", "..\eeprom\eeprom\eeprom.cppproj", "{7FCE27F6-9A0E-4529-BE6B-356E5A435D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4D697D9-DF28-43F7-9D50-BE2FB8B93AB5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E4D697D9-DF28-43F7-9D50-BE2FB8B93AB5}.Debug|AVR.Build.0 = Debug|AVR
+		{E4D697D9-DF28-43F7-9D50-BE2FB8B93AB5}.Release|AVR.ActiveCfg = Release|AVR
+		{E4D697D9-DF28-43F7-9D50-BE2FB8B93AB5}.Release|AVR.Build.0 = Release|AVR
+		{7FCE27F6-9A0E-4529-BE6B-356E5A435D5D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7FCE27F6-9A0E-4529-BE6B-356E5A435D5D}.Debug|AVR.Build.0 = Debug|AVR
+		{7FCE27F6-9A0E-4529-BE6B-356E5A435D5D}.Release|AVR.ActiveCfg = Release|AVR
+		{7FCE27F6-9A0E-4529-BE6B-356E5A435D5D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
